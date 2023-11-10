@@ -1,0 +1,169 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Descubre Nuevos Destinos</h2>
+
+    <div class="row">
+        <div class="container">
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#viajeModal"> Crear Viaje
+              </button>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <!-- Modal Crear-->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="container mt-5">
+                            <form>
+
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="viaje.nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="descripcion">Descripcion</label>
+                                    <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="viaje.descripcion">
+                                </div>
+                                <div class="form-group">
+                                    <label for="destino">Destino</label>
+                                    <input type="text" class="form-control" id="destino" name="destino" [(ngModel)]="viaje.destino">
+                                </div>
+                                <div class="form-group">
+                                    <label for="duracionViaje">Duracion Viaje</label>
+                                    <input type="text" class="form-control" id="duracionViaje" name="duracionViaje" [(ngModel)]="viaje.duracionViaje">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fecha">Fecha</label>
+                                    <input type="datetime-local" class="form-control" id="fecha" name="fecha" [(ngModel)]="viaje.fecha">
+                                </div>
+                                <div class="form-group">
+                                    <label for="urlImagen">URL Imagen</label>
+                                    <input type="text" class="form-control" id="urlImagen" name="urlImagen" [(ngModel)]="viaje.urlImagen">
+                                </div>
+                                <div class="form-group">
+                                    <label for="precio">Precio</label>
+                                    <input type="number" class="form-control" id="precio" name="precio" [(ngModel)]="viaje.precio">
+                                </div>
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" (click)="GuardarReserva(viaje)" class="btn btn-primary">Guardar Reserva</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal-->
+
+        <!-- Modal Crear-->
+        <div class="modal fade" id="viajeModal" tabindex="-1" aria-labelledby="viajeModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="viajeModalLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="container mt-5">
+                            <form>
+
+                                <div class="form-group">
+                                    <label for="nombre">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" name="nombre" [(ngModel)]="viaje.nombre">
+                                </div>
+                                <div class="form-group">
+                                    <label for="descripcion">Descripcion</label>
+                                    <input type="text" class="form-control" id="descripcion" name="descripcion" [(ngModel)]="viaje.descripcion">
+                                </div>
+                                <div class="form-group">
+                                    <label for="destino">Destino</label>
+                                    <input type="text" class="form-control" id="destino" name="destino" [(ngModel)]="viaje.destino">
+                                </div>
+                                <div class="form-group">
+                                    <label for="duracionViaje">Duracion Viaje</label>
+                                    <input type="text" class="form-control" id="duracionViaje" name="duracionViaje" [(ngModel)]="viaje.duracionViaje">
+                                </div>
+                                <div class="form-group">
+                                    <label for="fecha">Fecha</label>
+                                    <input type="datetime-local" class="form-control" id="fecha" name="fecha" [(ngModel)]="viaje.fecha">
+                                </div>
+                                <div class="form-group">
+                                    <label for="precio">Precio</label>
+                                    <input type="number" class="form-control" id="precio" name="precio" [(ngModel)]="viaje.precio">
+                                </div>
+                                <div class="form-group">
+                                    <label for="urlImagen">URL Imagen</label>
+                                    <input type="text" class="form-control" id="urlImagen" name="urlImagen" [(ngModel)]="viaje.urlImagen">
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" (click)="GuardarReserva(viaje)" class="btn btn-primary">Guardar Reserva</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Modal-->
+
+
+        <!--Tabla-->
+        <div class="container mt-5">
+            <h2 class="mb-4">Tabla de Viajes</h2>
+            <table class="table table-striped table-hover">
+                <thead class="bg-primary text-white">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Descripción</th>
+                        <th>Destino</th>
+                        <th>Duración</th>
+                        <th>URL Imagen</th>
+                        <th>Fecha</th>
+                        <th>Precio</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let viaje of ListaCatalogo">
+                        <td>{{ viaje.id }}</td>
+                        <td>{{ viaje.nombre }}</td>
+                        <td>{{ viaje.descripcion }}</td>
+                        <td>{{ viaje.destino }}</td>
+                        <td>{{ viaje.duracionViaje }}</td>
+                        <td><img src="{{ viaje.UrlImagen }}" alt="Imagen de Viaje" width="100"></td>
+                        <!-- Añadido para mostrar la imagen -->
+                        <td>{{ viaje.Fecha | date }}</td>
+                        <td>{{ viaje.Precio | currency:'USD':true }}</td>
+                        <!-- Usado filtro currency para formato de precio -->
+                        <td>
+                            <!-- Icono de editar con un ligero margen a la derecha -->
+                            <i class="fas fa-edit text-warning cursor-pointer" data-bs-toggle="modal" data-bs-target="#editModal" (click)="ObtenerDatos(viaje)" style="margin-right: 50%;"></i>
+
+                            <!-- Icono de eliminar -->
+                            <i class="fas fa-trash-alt text-danger cursor-pointer" (click)="Eliminar(viaje.id)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <!--Tabla-->
+
+
+    </div>
+</div>

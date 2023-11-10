@@ -1,0 +1,82 @@
+<div class="container">
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron mt-3 fontColor">
+            <h1 class="display-4">Catalogo </h1>
+            <p class="lead">Aquí podrás encontrar una amplia selección de nuestros tours</p>
+            <hr class="my-4">
+            <!--<p>Regístrate y comienza a participar en nuestras subastas hoy mismo.</p>    -->
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+
+    <!---->
+    <!--<div class="row">
+        <div class="col col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80" class="card-img-top" alt="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80" class="card-img-top" alt="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80" class="card-img-top" alt="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col col-md-3">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80" class="card-img-top" alt="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <div class="row">
+
+
+
+
+        <div class="col col-md-3" *ngFor="let Lista of ListaCatalogo">
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80" class="card-img-top" alt="https://images.unsplash.com/photo-1590523741831-ab7e8b8f9c7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGxheWFzfGVufDB8fDB8fHww&w=1000&q=80">
+                <div class="card-body">
+                    <h5 class="card-title">{{Lista.nombre}}</h5>
+                    <p class="card-text">{{Lista.descripcion}}</p>
+                    <p class="card-text"><strong>$: {{Lista.precio}}</strong> </p>
+                    <a class="btn btn-primary" [routerLink]="['/detalleCatalogoComponent', Lista.id]">Detalle</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>

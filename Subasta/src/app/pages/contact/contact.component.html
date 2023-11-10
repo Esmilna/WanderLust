@@ -1,0 +1,48 @@
+<!-- Contenido de la página -->
+<div class="container mt-5">
+
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron mt-3 fontColor">
+            <h1 class="display-4">Contacto</h1>
+            <p class="lead">Si deseas ponerte en contacto con nosotros, puedes llenar el siguiente formulario y nos comunicaremos contigo a la brevedad posible.</p>
+            <hr class="my-4">
+            <!--<p>Regístrate y comienza a participar en nuestras subastas hoy mismo.</p>    -->
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <form>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="sendEmail()">Enviar Mensaje</button>
+    </form>
+</div>
+
+
+<!-- Conexión a redes sociales -->
+<div class="text-center mt-5">
+    <a href="https://www.facebook.com/" target="_blank" class="mx-2">
+        <i class="fab fa-facebook fa-2x"></i>
+    </a>
+    <a href="https://www.instagram.com/" target="_blank" class="mx-2">
+        <i class="fab fa-instagram fa-2x"></i>
+    </a>
+    <a href="https://www.twitter.com/" target="_blank" class="mx-2">
+        <i class="fab fa-twitter fa-2x"></i>
+    </a>
+</div>
+<br>
+
+<br>

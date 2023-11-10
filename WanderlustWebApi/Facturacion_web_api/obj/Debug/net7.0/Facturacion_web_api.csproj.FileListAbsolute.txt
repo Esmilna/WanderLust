@@ -1,0 +1,86 @@
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\appsettings.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.exe
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.deps.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.runtimeconfig.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.pdb
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.AssemblyReference.cache
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.AssemblyInfoInputs.cache
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.AssemblyInfo.cs
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.CoreCompileInputs.cache
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.Facturacion_web_api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.build.Facturacion_web_api.props
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Facturacion_web_api.props
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Facturacion_web_api.props
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\scopedcss\bundle\Facturacion_web_api.styles.css
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.CopyComplete
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\refint\Facturacion_web_api.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.pdb
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.genruntimeconfig.cache
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\ref\Facturacion_web_api.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Walter Garcia\OneDrive\Escritorio\Consultec\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\appsettings.Development.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\appsettings.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.exe
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.deps.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.runtimeconfig.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Facturacion_web_api.pdb
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Humanizer.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\MySqlConnector.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\bin\Debug\net7.0\System.CodeDom.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.AssemblyReference.cache
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.AssemblyInfoInputs.cache
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.AssemblyInfo.cs
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.CoreCompileInputs.cache
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.Facturacion_web_api.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.build.Facturacion_web_api.props
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Facturacion_web_api.props
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Facturacion_web_api.props
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.build.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\staticwebassets.development.json
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\scopedcss\bundle\Facturacion_web_api.styles.css
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.csproj.CopyComplete
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\refint\Facturacion_web_api.dll
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.pdb
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\Facturacion_web_api.genruntimeconfig.cache
+C:\Repos\viajes\api\Walter Garcia\Facturacion_web_api\Facturacion_web_api\obj\Debug\net7.0\ref\Facturacion_web_api.dll

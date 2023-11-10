@@ -1,0 +1,182 @@
+<div class="container mt-5" style="background-color: #f8f9fa;">
+    <div class="card" *ngFor="let data of datosCatalogo">
+        <div style="width: 1295px; height: 400px; overflow: hidden;">
+            <img src="https://img.freepik.com/free-photo/tropical-beach_74190-188.jpg?w=2000" class="card-img-top" alt="Vistas al mar" style="object-fit: cover; width: 100%; height: 100%;">
+        </div>
+        <div class="card-body">
+            <h3 class="card-title" style="color: #007bff;">{{data.nombre}}</h3>
+            <p class="card-text" style="font-size: 18px;">{{data.descripcion}}</p>
+            <ul class="list-group">
+                <li class="list-group-item"><strong>Destino:</strong> {{data.destino}}</li>
+                <li class="list-group-item"><strong>Duración:</strong> {{data.duracionViaje}}</li>
+                <li class="list-group-item"><strong>Fecha:</strong> {{data.fecha}}</li>
+                <li class="list-group-item"><strong>Precio:</strong> {{data.precio}}</li>
+            </ul>
+        </div>
+        <div class="card-footer" style="background-color: #f8f9fa;">
+            <p class="text-muted" style="font-size: 14px;">¡Reserva ahora y vive una experiencia inolvidable!</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal"> Reservar
+      </button>
+</div>
+
+<!--Modal-->
+
+
+
+
+<!-- Modal Crear-->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container mt-5">
+                    <form>
+                        <!--<div class="form-group">
+                            <label for="id">ID</label>
+                            <input type="number" class="form-control" id="id" name="id" [(ngModel)]="reserva.id">
+                        </div>-->
+                        <div class="form-group">
+                            <label for="inicioFechaReserva">Inicio Fecha Reserva</label>
+                            <input type="datetime-local" class="form-control" id="inicioFechaReserva" name="inicioFechaReserva" [(ngModel)]="reserva.inicioFechaReserva">
+                        </div>
+                        <div class="form-group">
+                            <label for="finFechaReserva">Fin Fecha Reserva</label>
+                            <input type="datetime-local" class="form-control" id="finFechaReserva" name="finFechaReserva" [(ngModel)]="reserva.finFechaReserva">
+                        </div>
+                        <div class="form-group">
+                            <label for="estadoReserva">Nombre Cliente</label>
+                            <input type="text" class="form-control" id="estadoReserva" name="estadoReserva" [(ngModel)]="reserva.nombreCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="estadoReserva">Cedula</label>
+                            <input type="text" class="form-control" id="estadoReserva" name="estadoReserva" [(ngModel)]="reserva.cedulaCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="estadoReserva">Telefono</label>
+                            <input type="text" class="form-control" id="estadoReserva" name="estadoReserva" [(ngModel)]="reserva.TelefonoCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="estadoReserva">Estado Reserva</label>
+                            <input type="text" class="form-control" id="estadoReserva" name="estadoReserva" [(ngModel)]="reserva.estadoReserva">
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" (click)="GuardarReserva(reserva)" class="btn btn-primary">Guardar Reserva</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal-->
+
+
+<!--Modal Editar-->
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <div class="container mt-5">
+                    <form>
+                        <!--<div class="form-group">
+                            <label for="id">ID</label>
+                            <input type="number" class="form-control" id="id" name="id" [(ngModel)]="reserva.id">
+                        </div>-->
+                        <div class="form-group">
+                            <label for="inicioFechaReserva">Inicio Fecha Reserva</label>
+                            <input type="datetime-local" class="form-control" id="inicioFechaReserva" name="inicioFechaReserva" [(ngModel)]="reserva.inicioFechaReserva">
+                        </div>
+                        <div class="form-group">
+                            <label for="finFechaReserva">Fin Fecha Reserva</label>
+                            <input type="datetime-local" class="form-control" id="finFechaReserva" name="finFechaReserva" [(ngModel)]="reserva.finFechaReserva">
+                        </div>
+                        <div class="form-group">
+                            <label for="nombreCliente">Nombre Cliente</label>
+                            <input type="text" class="form-control" id="nombreCliente" name="nombreCliente" [(ngModel)]="reserva.nombreCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="cedula">Cedula</label>
+                            <input type="text" class="form-control" id="cedula" name="cedula" [(ngModel)]="reserva.cedulaCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Telefono</label>
+                            <input type="text" class="form-control" id="telefono" name="telefono" [(ngModel)]="reserva.telefonoCliente">
+                        </div>
+                        <div class="form-group">
+                            <label for="estadoReserva">Estado Reserva</label>
+                            <input type="text" class="form-control" id="estadoReserva" name="estadoReserva" [(ngModel)]="reserva.estadoReserva">
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" (click)="Editar(reserva.id,reserva)" class="btn btn-primary">Guardar Reserva</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Modal Editar-->
+
+<!--Tabla-->
+<div class="container mt-5">
+    <h2 class="mb-4">Tabla de Reserva</h2>
+    <table class="table table-striped table-hover">
+        <thead class="bg-primary text-white">
+            <tr>
+                <th>ID</th>
+                <th>ID Viaje</th>
+                <th>Inicio Fecha Reserva</th>
+                <th>Fin Fecha Reserva</th>
+                <th>Estado Reserva</th>
+                <th>Nombre Cliente</th>
+                <th>Cédula Cliente</th>
+                <th>Teléfono Cliente</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let reserva of listaReserva">
+                <td>{{ this.reserva.id }}</td>
+                <td>{{ this.reserva.idViaje }}</td>
+                <td>{{ this.reserva.inicioFechaReserva | date }}</td>
+                <td>{{ this.reserva.finFechaReserva | date }}</td>
+                <td>{{ this.reserva.estadoReserva }}</td>
+                <td>{{ this.reserva.nombreCliente }}</td>
+                <td>{{ this.reserva.cedulaCliente }}</td>
+                <td>{{ this.reserva.telefonoCliente }}</td>
+                <td>
+                    <!-- Icono de editar con un ligero margen a la derecha -->
+
+                    <!--<i class="fas fa-edit text-warning  cursor-pointer" (click)="Editar(reserva.id,reserva)" style="margin-right: 50%;">
+                    </i>-->
+                    <i class="fas fa-edit text-warning  cursor-pointer" data-bs-toggle="modal" data-bs-target="#editModal" (click)="ObtenerDatos(reserva)" style="margin-right: 50%;"></i>
+
+                    <!-- Icono de eliminar -->
+                    <i class="fas fa-trash-alt text-danger  cursor-pointer" (click)="Eliminar(reserva.id)"></i>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<!--Tabla-->

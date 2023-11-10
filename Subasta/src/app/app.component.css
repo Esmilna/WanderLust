@@ -1,0 +1,22 @@
+.imgSize {
+    height: 100%;
+    width: 100%;
+}
+
+.fontColor {
+    color: white;
+    text-align: justify;
+}
+
+.backgroundCard {
+    /*background-color: rgb(19, 18, 18) ;*/
+    background-color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Esto es para asegurar que el footer esté siempre en la parte superior, en caso de que otros elementos tengan un z-index. */
+}
